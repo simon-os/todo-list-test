@@ -9,7 +9,7 @@ import {
 } from './types'
 
 const defaultState = {
-  todos: getFromLocalStorage('todos'),
+  todos: getFromLocalStorage('todos') ?? [],
   filteredBy: null,
 }
 
