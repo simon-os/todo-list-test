@@ -1,0 +1,8 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import 'components/todo-list/todo-list';
+@import 'components/remove-button/remove-button';
+
+.cursor-pointer {
+  cursor: pointer;
+}
