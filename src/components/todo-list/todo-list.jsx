@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import TodoHead from '../todo-head'
-import TodoItem from '../todo-item'
 import ButtonsRow from '../buttons-row'
 import Button from 'react-bootstrap/Button'
+import TodoHead from './todo-head'
+import TodoItem from './todo-item'
 import { 
   addToLocalStorage, 
   combineClasses, 

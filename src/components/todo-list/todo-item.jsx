@@ -1,6 +1,6 @@
 import React from 'react'
 import Col from 'react-bootstrap/Col'
-import TodoRow from '../todo-row'
+import TodoRow from './todo-row'
 import RemoveButton from '../remove-button'
 import { useDispatch } from 'react-redux'
 import { filterTodos, removeTodo, toggleTodo } from '../../store/actions'
